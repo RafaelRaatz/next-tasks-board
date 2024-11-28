@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Container } from "./styles";
+import { Container } from "../../styles/task";
 import { GetServerSideProps } from "next";
 import { TextArea } from "@/components/textArea";
 import { db } from "../../services/firebaseConnection";

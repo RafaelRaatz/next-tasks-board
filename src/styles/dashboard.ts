@@ -59,19 +59,18 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-
     a {
       text-decoration: none;
       color: #0f0f0f;
     }
 
-    h1{
+    h1 {
       text-align: center;
       font-size: 32px;
       margin-bottom: 24px;
     }
 
-    .task{
+    .task {
       margin-bottom: 14px;
       line-height: 150%;
       display: flex;
@@ -80,40 +79,40 @@ export const Container = styled.div`
       border: none;
       border-radius: 4px;
       padding: 14px;
-      background-color:#F5F5F5;
+      background-color: #f5f5f5;
 
-      .infos-container{
+      .infos-container {
         display: flex;
         align-items: center;
         width: 100%;
         justify-content: space-between;
 
-        .tag-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 8px;
+        .tag-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 8px;
 
-        .tag{
-          background-color: #3183ff;
-          padding: 2px 6px;
-          color: #fff;
-          border-radius: 4px;
-          font-size: 12px;
+          .tag {
+            background-color: #3183ff;
+            padding: 2px 6px;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 12px;
+          }
+
+          .share-button {
+            background: transparent;
+            border: 0;
+            margin: 0 8px;
+            cursor: pointer;
+          }
         }
 
-        .share-button{
-          background: transparent;
-          border: 0;
-          margin: 0 8px;
+        .details {
+          display: flex;
           cursor: pointer;
-        }
-      }
-
-      .details{
-        display: flex;
-          cursor: pointer;
-          background-color: transparent ;
+          background-color: transparent;
           border: 0;
           border-radius: 4px;
           margin: 0 8px;
@@ -121,22 +120,19 @@ export const Container = styled.div`
         }
       }
 
-
-
-      .task-content{
+      .task-content {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
 
-
-        p{
+        p {
           white-space: pre-wrap;
         }
 
-        .trash-button{
+        .trash-button {
           cursor: pointer;
-          background-color: #ea3140 ;
+          background-color: #ea3140;
           border: 0;
           border-radius: 4px;
           margin: 0 8px;

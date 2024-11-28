@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Container } from "./styles";
+import { Container } from "../../styles/dashboard";
 import { FaTrash } from "react-icons/fa";
 import { FiShare2 } from "react-icons/fi";
 import { GetServerSideProps } from "next";
