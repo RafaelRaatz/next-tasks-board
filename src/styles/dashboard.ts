@@ -79,7 +79,7 @@ export const Container = styled.div`
       border: none;
       border-radius: 4px;
       padding: 14px;
-      background-color: #f5f5f5;
+      background-color: #e9e9e9;
 
       .infos-container {
         display: flex;

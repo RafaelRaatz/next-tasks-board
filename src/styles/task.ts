@@ -25,7 +25,7 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #f5f5f5;
+      background-color: #e9e9e9;
 
       p {
         white-space: pre-wrap;
@@ -72,7 +72,7 @@ export const Container = styled.div`
       border-radius: 4px;
       padding: 14px;
       margin-bottom: 14px;
-      background-color:#F5F5F5;
+      background-color:#e9e9e9;
 
       .head-comment{
         display: flex;
